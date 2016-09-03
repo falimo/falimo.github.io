@@ -1,0 +1,33 @@
+h1	{
+	color: #222222;
+	font-style: bold;	
+	font-family: Helvetica; sans-serif;
+}
+
+body {
+	color: #225522;
+}
+
+main {
+	font-family: Helvetica; sans-serif;
+}
+
+p {
+	margin-left: 20px;
+	color: #225522;
+	font-family: Helvetica; sans-serif;
+}
+
+ul {
+	margin-left: 50px;
+}
+
+#slogan {
+	color: #7B00FF;
+	font-style: italic;
+	font-family: Helvetica; sans-serif;
+}
+
+img {
+	width: 100%;
+}
