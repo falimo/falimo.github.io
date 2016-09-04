@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+
+
+h1	{
+	color: brown;
+	font-style: bold;	
+	font-family: 'Lato', sans-serif;
+	padding-left: 20px;
+	font-size: 36px;
+
+}
+
+body {
+	color: black;
+}
+
+main {
+	font-family: 'Lato'; sans-serif;
+}
+
+p {
+	margin-left: 20px;
+	color: black;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+#slogan {
+	color: grey;
+	font-style: italic;
+	font-family: 'Playfair+Display', serif;
+	font-size: 24px;
+}
+
+img {
+	width: 100%;
+}
