@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+header {
+	background-image: url("images/dad_image.jpeg");
+	background-size: 100%;
+}
+
 body {
 	font-family: "Lucida", Lucida, Arial, sans-serif;
 	font-size: 16px;
@@ -37,15 +42,15 @@ h4{
 	border: 1px black solid;
 	padding: 20px; 
 }
-
-img {
+/*
+header img {
+	float: left;
 	margin-top: 0;
 	width: 100%;
-	background-color: #FFE2B8; /*for unit5*/
+	background-color: #FFE2B8; /*for unit5
 	border: 1px black solid;
 	padding: 20px; 
-}
-
+}*/
 
 #nav_bar {
 	background-color: purple;

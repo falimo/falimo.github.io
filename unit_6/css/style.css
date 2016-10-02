@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida", Lucida, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #887C8C;
+}
+
+header {
+	background-image: url("images/dad_image.jpeg");
+	size: 10%;
+/*	background-color: red;*/
+}
+
+
+#nav_bar_left {
+	background-color: none;
+	float: left;
+	padding: 30px 20px;
+	padding: 20px; 
+}
+
+#nav_bar_right {
+	background-color: none;
+	float: right;
+	padding: 30px 20px;
+	padding: 20px; 
+}
+
+
+nav a {
+	color: #358DF2;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  border-bottom: grey;
+}
+
+#title1	{
+	font-size: 44px;
+	color: #2B4686;
+	margin-top: 50px;
+	text-align: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*background-color: #FFE2B8; /*for unit5*/*/
+	padding: 20px; 
+
+}
+
+#title2a {
+	font-size: 22px;
+	color: #2B4686;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	/*background-color: #FFE2B8; /*for unit5*/*/
+	padding: 20px; 
+
+}
+
+#title2b {
+	padding-top: 22px;
+	font-size: 22px;
+	color: #2B4686;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+/*	background-color: #FFE2B8; /*for unit5*/*/
+	padding: 20px; 
+
+}
+
+#get_started1 {
+	display: block;
+	font-size: 18px;
+	color: #2B4686;
+	padding: 10px 5px;
+	background-color: green;
+	text-align: center;
+	margin: 20px auto;
+	text-decoration: none;
+	width: 200px;
+}
+
+.section_title {
+	font-size: 32px;
+	margin-left: 10px;
+	color:	#2B4686;
+}
+
+
+#inspiration {
+	float: right;
+	width: 500px;
+	text-align: left;
+}
+
+#inspiration_image {
+	float: left;
+}
+
+#essentials {
+	float: left;
+	width: 500px;
+	text-align: left;
+}
+
+#essentials_image {
+	float: right;
+}
+
+h4{		/*for sub-titles in The Game section*/
+	font-size: 18px;
+	color: #887C8C;
+}
+
+
+#game_title {
+	font-size: 32px;
+	padding: 10px;
+	color: #2B4686;
+	text-align: center;
+}
+
+
+#left {
+	width: 400px;
+	float: left;
+	align: center;
+	text-align: center;
+}
+
+#middle {
+	float: left;
+	width: 400px;
+	text-align: center; 
+}
+
+#right {
+	float: left;
+	width: 400px;
+	align: center;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#get_started2 {
+	display: block;
+	font-size: 18px;
+	color: #2B4686;
+	padding: 10px 5px;
+	background-color: green;
+	text-align: center;
+	margin: 20px auto;
+	text-decoration: none;
+	width: 200px;
+}
+
+#about {
+	float: right;
+	width: 500px;
+	text-align: left;
+}
+
+#about_image {
+	float: left;
+}
+
+footer {
+	background-color: #2B4686;
+	color: white;
+}
+
+#logo {
+	display: block;
+	width: 50px;
+	text-align: center;
+	padding: 40px;
+	margin: auto;
+	color: white;
+}
+
+p {
+	padding: 10px;
+}
+
