@@ -1,0 +1,290 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lucida", Lucida, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #887C8C;
+}
+
+header {
+	background:url("images/dad_image.jpeg");
+/*	width: 100%;
+*/	background-size: cover;
+}
+
+#nav_bar_left {
+	background-color: none;
+	float: left;
+	padding: 2em 1.5em;
+	padding: 1.5em; 
+}
+
+#nav_bar_right {
+	background-color: none;
+	float: right;
+	padding: 2em 1.5em;
+	padding: 1.5em; 
+}
+
+
+nav a {
+	color: #358DF2;
+	padding: .8em;
+	text-decoration: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  border-bottom: grey;
+}
+
+#title1	{
+	font-size: 2.5em;
+	color: #2B4686;
+	margin-top: 2em;
+	text-align: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	/*background-color: #FFE2B8; /*for unit5*/*/
+	/*padding: 20px; */
+
+}
+
+#title2a {
+	font-size: 1.5em;
+	color: #2B4686;
+	text-align: center;
+	margin-left: 3em;
+	margin-right: 3em;
+	/*background-color: #FFE2B8; /*for unit5*/*/
+	padding: 2em; 
+
+}
+
+#title2b {
+	padding-top: 2em;
+	font-size: 1.5em;
+	color: #2B4686;
+	text-align: center;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 3em;
+/*	background-color: #FFE2B8; /*for unit5*/*/
+	padding: 2em; 
+
+}
+
+#get_started1 {
+	display: block;
+	font-size: 1.2em;
+	color: #2B4686;
+	padding: .5em .5em;
+	background-color: green;
+	text-align: center;
+	margin: 2em auto;
+	text-decoration: none;
+	width: 200px;
+}
+
+#inspiration_wrap {
+	width: 80%;
+	margin: auto;
+}
+
+.section_title {
+	font-size: 2em;
+	margin-left: 10px;
+	color:	#2B4686;
+}
+
+
+#inspiration {
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+
+#inspiration_image {
+	float: left;
+}
+
+#inspiration_image img {
+	margin: 50%;
+}
+
+#essentials_wrap {
+	width: 80%;
+	margin: auto;
+}
+#essentials {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+#essentials_image {
+	float: right;
+}
+
+#essentials_image img {
+	margin: 50%;
+}
+
+h4{		/*for sub-titles in The Game section*/
+	font-size: 1.2em;
+	color: #887C8C;
+}
+
+#game_wrap{
+	width: 90%;
+	margin: auto;
+}
+
+#game_title {
+	font-size: 2em;
+	padding: .5em;
+	color: #2B4686;
+	text-align: center;
+}
+
+
+#left {
+	width: 33%;
+	float: left;
+	align: center;
+	text-align: center;
+}
+
+#middle {
+	float: left;
+	width: 33%;
+	text-align: center; 
+}
+
+#right {
+	float: left;
+	width: 33%;
+	align: center;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+#get_started2 {
+	display: block;
+	font-size: 1.2em;
+	color: #2B4686;
+	padding: .5em .5em;
+	background-color: green;
+	text-align: center;
+	margin: 2em auto;
+	text-decoration: none;
+	width: 200px;
+}
+
+#about_wrap {
+	width: 90%;
+	margin: auto;
+}
+
+#about {
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+
+#about_image {
+	float: left;
+	width: 50%;
+}
+
+#about_image img {
+	margin: 50%;
+}
+
+footer {
+	background-color: #2B4686;
+	color: white;
+}
+
+#logo {
+	display: block;
+	width: 3em;
+	text-align: center;
+	padding: 1.5em;
+	margin: auto;
+	color: white;
+}
+
+p {
+	padding: .8em;
+}
+
+#nav_bar_phone {
+	display: none;
+}
+
+@media screen and (max-width: 590px) {
+	
+	 /*add nav adjustments for the nav
+*/	
+
+	header {
+
+	background-size: cover;
+	
+	}
+
+	#nav_bar_left, #nav_bar_right {
+
+		display: none;
+	}
+
+	#nav_bar_phone {
+		display: inline-block;
+		color: black;
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	#logo_phone {
+		display: inline-block;
+		float: left;
+		margin: 0 50px;	
+		padding: 5px 10px;	
+		/*margin-top: 10px;*/
+	}
+	
+	#login_phone {
+		display: inline-block;
+		float: right;
+		margin-right: 50px;
+		border: 1px dotted grey;
+		padding: 5px 10px;
+	}
+
+	body {
+		font-size: 14px;
+	}
+
+	#inspiration, #inspiration_image, #essentials, #essentials_image, #left, #middle, #right, #about {
+		float: none;
+		text-align: center;
+		align-content: center;
+		width: 100%;
+	}
+
+	#inspiration_image img, #essentials_image img, #about_image img {
+		display: none;
+	}
+
+}
